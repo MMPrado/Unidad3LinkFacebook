@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size">15pt</dimen>
+    <dimen name="textview_size">20dp</dimen>
+    <dimen name="heigt_size">200dp</dimen>
+    <dimen name="width_size">400dp</dimen>
+    <dimen name="w_layout">320dp</dimen>
+    <dimen name="size_t">13sp</dimen>
+    <dimen name="margin_top">13dp</dimen>
+    <dimen name="widthbtn_size">85dp</dimen>
+    <dimen name="heigthbtn_size">85dp</dimen>
+    <dimen name="margin_left">36dp</dimen>
+    <dimen name="margin_start">36dp</dimen>
+    <dimen name="margin_end">31dp</dimen>
+    <dimen name="margin_right">31dp</dimen>
+    <dimen name="wdt_size">87dp</dimen>
+    <dimen name="hgt_size">87dp</dimen>
+</resources>

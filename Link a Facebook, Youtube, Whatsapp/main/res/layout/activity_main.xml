@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/found15"
+    tools:context="mx.edu.utng.mmacias.unidadii.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imv_image"
+        android:layout_width="@dimen/w_layout"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/buttonwhatsapp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/buttonwhatsapp"
+        android:layout_marginTop="@dimen/margin_top"
+        android:src="@drawable/josefabar"
+        android:background="@drawable/image"/>
+
+    <Button
+        android:id="@+id/buttonFacebook"
+        android:layout_width="@dimen/widthbtn_size"
+        android:layout_height="@dimen/heigthbtn_size"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/face3"
+         />
+
+    <Button
+        android:id="@+id/buttonwhatsapp"
+        android:layout_width="@dimen/widthbtn_size"
+        android:layout_height="@dimen/heigthbtn_size"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginStart="@dimen/margin_start"
+        android:layout_toEndOf="@+id/buttonFacebook"
+        android:layout_toRightOf="@+id/buttonFacebook"
+        android:background="@drawable/whats2" />
+
+    <Button
+        android:id="@+id/buttonYouTube"
+        android:layout_width="@dimen/wdt_size"
+        android:layout_height="@dimen/hgt_size"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/margin_end"
+        android:layout_marginRight="@dimen/margin_right"
+        android:layout_toLeftOf="@+id/buttonFacebook"
+        android:layout_toStartOf="@+id/buttonFacebook"
+        android:background="@drawable/youtube" />
+</RelativeLayout>
